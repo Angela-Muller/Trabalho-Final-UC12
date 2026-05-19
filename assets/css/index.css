@@ -16,6 +16,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    border: solid 1px white;
+}
+
+
+.cabeca img {
+    width: 15%;
+    height: 15%;
 }
 
 .car1 {

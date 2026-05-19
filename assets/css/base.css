@@ -9,12 +9,35 @@
     src: url(../fonts/OswaldBold.ttf);
 }
 
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url(../fonts/OswaldRegular.ttf);
+}
+
+@font-face {
+    font-family: 'MuliRegular';
+    src: url(../fonts/MuliRegular.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonRegular';
+    src: url(../fonts/CrimsonTextRegular.ttf);
+}
+
 
 
 body {
-   
+   color: black;
 }
 
 h1 {
-    font-family: 'OswaldBold', sans-serif;
+    font-family: 'OswaldBold';
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'OswaldRegular';
+    color: white;
+    font-size: 16px; 
 }
