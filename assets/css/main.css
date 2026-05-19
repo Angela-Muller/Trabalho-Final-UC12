@@ -1,0 +1,12 @@
+/*
+--------------------------------------------------------------
+    Main - É o arquivo central que importa todos os outros. Ele organiza a ordem de carregamento dos estilos.
+-------------------------------------------------------------
+*/
+
+
+@import 'index.css';
+@import 'reset.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'base.css';
