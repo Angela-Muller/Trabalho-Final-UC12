@@ -5,8 +5,13 @@
 */
 
 
-@import 'index.css';
 @import 'reset.css';
 @import 'layout.css';
 @import 'components.css';
 @import 'base.css';
+
+@import 'carrosel.css';
+@import 'btnCert.css';
+@import 'featBlog.css';
+@import 'findTrails.css';
+@import 'travEssen.css'

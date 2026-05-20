@@ -1,0 +1,132 @@
+
+/*=============================================================
+                    Cabeçalho do site
+==============================================================*/
+
+.carrosel {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------------------------
+                     Card 1 - Carrosel
+--------------------------------------------------------------*/
+
+.car1 {
+    width: 100%;
+    height: 60rem;
+    background: url(../images/montanha.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*''''''''''''''''''''''''' Header '''''''''''''''''''''''''''''*/
+
+.cabeca {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    
+    
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: solid 1px rgba(255, 255, 255, 0.5);   
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    padding: 50px;
+
+    width: 95%;
+    height: 7rem;
+
+}
+
+.cabeca img {
+    height: 5rem;
+}
+
+.cabeca1 {
+    gap: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabeca1 img {
+    padding: 2px;
+}
+
+/*'''''''''''''''''''''''''texto central'''''''''''''''''''''''''''''*/
+
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+}
+
+.text1 p {
+    width: 55%;
+    text-align: center;
+}
+
+.textT1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.calendar {
+    height: 1rem;
+}
+
+.pencil {
+    height: 1rem;
+    rotate: 90deg;
+}
+
+/*------------------------------------------------------------
+                        Botões de seta
+-------------------------------------------------------------*/
+
+.setas {
+    position: absolute;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+}
+
+.setas img {
+    height: 1.5rem;
+    width: 2rem;
+}
+
+
+.seta1 {
+    rotate: 180deg;
+}
+
+/*------------------------------------------------------------
+                        Fundo site
+-------------------------------------------------------------*/
+
+.relevoTinta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
