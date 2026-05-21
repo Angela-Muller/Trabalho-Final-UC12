@@ -9,7 +9,53 @@
 -------------------------------------------------------------
 */ 
 
-.findTrails img{
-    height: 35%;
-    width: 35%;
+.findTrails {
+    background: url(../images/brush1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.findTrails1 {  
+    padding: 15px;
+    margin: 10%;
+
+    width: 80%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.livroTrails{
+    height: auto;
+    max-width: 90%;
+}
+
+.textTrails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bntTrails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 1rem;
+}
+
+.bntTrails button {
+    background-color: rgb(89, 129, 91);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bntTrails input{
+    height: 40px;
 }

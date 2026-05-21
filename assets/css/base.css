@@ -35,6 +35,11 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2 {
+    font-family: 'OswaldBold';
+    font-size: 2rem;
+}
+
 h5 {
     font-family: 'CrimsonRegular';
     font-size: 1.5rem;
@@ -50,4 +55,9 @@ a {
     font-family: 'OswaldRegular';
     color: white;
     font-size: 2vh; 
+}
+
+button {
+    font-family: 'OswaldBold';
+    font-size: 1.1rem;
 }
