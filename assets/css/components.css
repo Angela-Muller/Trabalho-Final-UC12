@@ -9,3 +9,22 @@ button {
     background: none;
     cursor: pointer;
 }
+
+
+.calendar {
+    height: 1rem;
+}
+
+.pencil {
+    height: 1rem;
+    rotate: 280deg;
+}
+
+.opacity{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.opacity img{
+    opacity: 0.5;
+}

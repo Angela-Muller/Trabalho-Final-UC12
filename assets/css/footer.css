@@ -1,0 +1,113 @@
+
+/*=============================================================
+                    footer - final do site
+==============================================================*/
+
+
+footer {
+    background-color: #242625;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5% 15%;
+
+    position: relative;
+    color: white;
+}
+
+.supFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.supFooter img {
+    width: 7rem;
+    height: 5rem;
+}
+
+.supText {
+    margin-left: 10%;
+    width: 45rem;
+}
+
+
+.midFooter {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+.midFooter input {
+    background: none;
+    color: white;
+    opacity: 1;
+
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+}
+
+.midFooter button {
+    color: white;
+}
+
+.midFooter span {
+    background: none;
+}
+
+.infFooter {
+    position: absolute;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 50px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 50px;
+}
+
+.insta {
+    display: flex;
+    margin: 0 50px;
+    width: 15rem;
+}
+
+.aboutBlog {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}

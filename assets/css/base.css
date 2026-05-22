@@ -33,11 +33,17 @@ body {
 h1 {
     font-family: 'OswaldBold';
     font-size: 3.5rem;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'OswaldBold';
     font-size: 2rem;
+}
+
+h4 {
+    font-family: 'CrimsonRegular';
+    font-size: 80rem;
 }
 
 h5 {
@@ -60,4 +66,15 @@ a {
 button {
     font-family: 'OswaldBold';
     font-size: 1.1rem;
+}
+
+::placeholder {
+    font-family: 'CrimsonRegular';
+    font-size: 1rem;
+}
+
+span {
+    color: rgb(89, 129, 91);
+    background: url(../images/paper.png);
+    background-position: center;
 }
