@@ -1,0 +1,80 @@
+
+/*=============================================================
+                    Carrosel - Cabeçalho do site
+==============================================================*/
+
+/*
+--------------------------------------------------------------
+    Finding trails - após Travel essenstials
+-------------------------------------------------------------
+*/ 
+
+.findTrails {
+    background: url(../images/brush1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    margin-top: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.findTrails1 {  
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.livroTrails{
+    height: auto;
+    max-width: 90%;
+}
+
+.textTrails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 25px;
+    width: 40rem;
+}
+
+.textTrails h1 {
+    font-size: 3rem;
+}
+
+.bntTrails {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 10px;
+
+}
+
+.bntTrails button {
+    background-color: rgb(89, 129, 91);
+    color: white;
+
+    height: 3rem;
+    padding: 1rem;
+
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}

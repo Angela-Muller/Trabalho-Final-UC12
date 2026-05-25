@@ -1,0 +1,142 @@
+
+/*=============================================================
+                    Cabeçalho do site
+==============================================================*/
+
+.carrosel {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------------------------
+                     Card 1 - Carrosel
+--------------------------------------------------------------*/
+
+.car1 {
+    width: 100%;
+    height: 60rem;
+    background: url(../images/montanha.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*''''''''''''''''''''''''' Header '''''''''''''''''''''''''''''*/
+
+.cabeca {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    
+    
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: solid 1px rgba(255, 255, 255, 0.5);   
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    padding: 50px;
+
+    width: 95%;
+    height: 7rem;
+
+}
+
+.cabeca img {
+    height: 5rem;
+}
+
+.cabeca1 {
+    gap: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabeca1 img {
+    padding: 2px;
+}
+
+/*'''''''''''''''''''''''''texto central'''''''''''''''''''''''''''''*/
+
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+}
+
+.text1 p {
+    width: 55%;
+    text-align: center;
+}
+
+.read{
+    margin: 25px;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(89, 129, 91);
+    border: none;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.textT1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*------------------------------------------------------------
+                        Botões de seta
+-------------------------------------------------------------*/
+
+.setas {
+    position: absolute;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+}
+
+.setas img {
+    padding: 0.6rem;
+    height: 2.5rem;
+    width: 3rem;
+    background: url(../images/paper.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.seta1 {
+    rotate: 180deg;
+}
+
+/*------------------------------------------------------------
+                        Fundo site
+-------------------------------------------------------------*/
+
+.brush {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+

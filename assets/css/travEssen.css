@@ -1,0 +1,73 @@
+
+/*=============================================================
+            Travel essenstials - após certificados
+==============================================================*/
+
+
+
+.travEssen {
+    margin-top: 5%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+}
+
+.imgTravel{
+    height: 25rem;
+    width: 35rem;
+}
+
+.travel {
+    padding: 10px;
+}
+
+.travel1 {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 85%;
+    
+}
+
+.textTravel1 {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: 5%;
+}
+
+
+
+.travel2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 85%;
+    
+}
+
+
+.textTravel2  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+
+    width: 40rem;
+}
+
+.btnTravel {
+    display: flex;
+    width: 7rem;
+    margin-top: 5%;
+}
+
+
+
+

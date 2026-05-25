@@ -1,0 +1,18 @@
+/*
+--------------------------------------------------------------
+    Main - É o arquivo central que importa todos os outros. Ele organiza a ordem de carregamento dos estilos.
+-------------------------------------------------------------
+*/
+
+
+@import 'reset.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'base.css';
+
+@import 'carrosel.css';
+@import 'btnCert.css';
+@import 'featBlog.css';
+@import 'findTrails.css';
+@import 'travEssen.css';
+@import 'footer.css'
