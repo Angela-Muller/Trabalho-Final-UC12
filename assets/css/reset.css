@@ -1,0 +1,12 @@
+/*
+--------------------------------------------------------------
+    Reset da página -  Remove os estilos padrão dos navegadores, deixando todos os elementos com um ponto de partida comum.
+-------------------------------------------------------------
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

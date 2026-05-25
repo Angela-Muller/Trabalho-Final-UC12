@@ -1,0 +1,80 @@
+/*
+--------------------------------------------------------------
+    Base - Define os estilos globais da aplicação — cores, fontes, espaçamentos e elementos básicos.
+-------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url(../fonts/OswaldBold.ttf);
+}
+
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url(../fonts/OswaldRegular.ttf);
+}
+
+@font-face {
+    font-family: 'MuliRegular';
+    src: url(../fonts/MuliRegular.ttf);
+}
+
+@font-face {
+    font-family: 'CrimsonRegular';
+    src: url(../fonts/CrimsonTextRegular.ttf);
+}
+
+
+
+body {
+   color: black;
+}
+
+h1 {
+    font-family: 'OswaldBold';
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'OswaldBold';
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'CrimsonRegular';
+    font-size: 80rem;
+}
+
+h5 {
+    font-family: 'CrimsonRegular';
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'MuliRegular';
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'OswaldRegular';
+    color: white;
+    font-size: 2vh; 
+}
+
+button {
+    font-family: 'OswaldBold';
+    font-size: 1.1rem;
+}
+
+::placeholder {
+    font-family: 'CrimsonRegular';
+    font-size: 1rem;
+}
+
+span {
+    color: rgb(89, 129, 91);
+    background: url(../images/paper.png);
+    background-position: center;
+}
